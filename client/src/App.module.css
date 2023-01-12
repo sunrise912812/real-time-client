@@ -1,0 +1,65 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+    border: 2px solid #228B22;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.form input[type="text"]{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+    border: 2px solid #228B22;
+}
+
+.form button{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    color: #228B22;
+    border: 2px solid #228B22;
+    font-weight: 800;
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color: #228B22;
+    color: white;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.message{
+    border: 2px solid #228B22;
+    margin-top: 20px;
+     width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.connection_message{
+    margin-top: 0px;
+    width: 500px;
+    color:red;
+    text-align: center;
+}
